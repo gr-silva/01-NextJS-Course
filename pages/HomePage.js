@@ -3,8 +3,8 @@ import Link from "../src/components/Link";
 import { theme } from "../src/theme/theme";
 import { Image, Box, Text, Icon, Input, Button } from "../src/theme/components";
 
-const LOGO_ALURA_URL = "alura-logo.svg";
-const SIDE_IMAGE_URL = "alura-cases.png";
+const LOGO_ALURA_URL = "assets/images/alura-logo.svg";
+const SIDE_IMAGE_URL = "assets/images/alura-cases.png";
 
 function SideImage() {
   return (
