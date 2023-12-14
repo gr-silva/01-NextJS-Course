@@ -19,10 +19,6 @@ export const getStaticProps = async () => {
 };
 
 const FAQPage = ({ faq }) => {
-  // const [faq, setFaq] = useState([]);
-  // useEffect(() => {
-  // }, []);
-  console.log(faq);
   return (
     <div>
       <h1>Alura Cases - Página de Perguntas FAQ</h1>
