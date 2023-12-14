@@ -1,4 +1,4 @@
-import Head from "next/head";
+import PageTitle from "../src/components/PageTitle";
 import Link from "../src/components/Link";
 
 export const getStaticProps = async () => {
@@ -20,9 +20,7 @@ export const getStaticProps = async () => {
 const FAQPage = ({ faq }) => {
   return (
     <div>
-      <Head>
-        <title>FAQ - Alura Cases Campanha</title>
-      </Head>
+      <PageTitle>FAQ - Alura Cases Campanha</PageTitle>
       <h1>Alura Cases - Página de Perguntas FAQ</h1>
       <Link href={"/"}>Ir para o Home</Link>
       <ul>
