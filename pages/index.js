@@ -1,4 +1,4 @@
-import HomeScreen from "./HomePage";
+import HomeScreen from "../src/screens/HomePage";
 
 const HomePage = () => {
   return <HomeScreen />;

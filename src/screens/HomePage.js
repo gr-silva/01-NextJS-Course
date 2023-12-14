@@ -1,7 +1,7 @@
-import Footer from "../src/components/pattern/Footer";
-import Link from "../src/components/Link";
-import { theme } from "../src/theme/theme";
-import { Image, Box, Text, Icon, Input, Button } from "../src/theme/components";
+import Footer from "../components/pattern/Footer";
+import Link from "../components/Link";
+import { theme } from "../theme/theme";
+import { Image, Box, Text, Icon, Input, Button } from "../theme/components";
 
 const LOGO_ALURA_URL = "assets/images/alura-logo.svg";
 const SIDE_IMAGE_URL = "assets/images/alura-cases.png";
