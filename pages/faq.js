@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-import { useState } from "react";
 import Link from "../src/components/Link";
 
 export const getStaticProps = async () => {
